@@ -1,0 +1,23 @@
+
+# local copy qilish
+copy /y "C:\Users\abdul\Desktop\New.sql" "C:\Users\abdul\Desktop\69"
+
+copy /y "\\admin-pc\C\Users\admin\Desktop\intellect.sec" "C:\Users\abdul\Desktop\"
+
+
+# global copy qilish
+copy /y  "C:\Users\abdul\Desktop\palns.txt" "\\Admin-pc\c\Program Files\Adobe\copyTest" 
+
+# taskkil qilish  qo'shtirnoq (' " ') dagi parametrlar o'zgaradi; pastda misol bor
+
+TASKKILL /S "192.168.1.105" /u "abdul" /p "12345" /IM "Discord.exe" /f /t
+# example
+TASKKILL /S 192.168.1.105 /u abdul /p 12345 /IM Discord.exe /f /t
+
+#start qilish
+start "" "C:\Users\abdul\AppData\Roaming\Telegram Desktop\telegram.exe"
+
+start "" "\\Admin-pc\C\Users\admin\AppData\Roaming\Telegram Desktop\telegram.exe"
+
+timeout 15
+
